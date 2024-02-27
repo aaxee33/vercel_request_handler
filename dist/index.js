@@ -41,4 +41,4 @@ app.get("/*", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     res.set("Content-Type", type);
     res.send(contents.Body);
 }));
-app.listen(3001, () => console.log("server listening on port 3000"));
+app.listen(3001, () => console.log("server listening on port 3001"));
